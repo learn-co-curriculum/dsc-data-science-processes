@@ -7,18 +7,18 @@ In this lesson, we will learn about various Data Science Processes that we can u
 
 ## Objectives
 
-You will learn how to:
+You will be able to:
 
 * Understand that Data Science projects are iterative
 * Understand that Data Science projects often have many stakeholders
 * Compare and constrast popular Data Science Process frameworks such as CRISP-DM, KDD, and OSEMiN
 
 
-### What is a Data Science Process?
+## What is a Data Science Process?
 
 Data Science projects are often complex, with many stakeholders, data sources, and goals.  Because of this, the Data Science community has created several methodologies for helping organize and structure Data Science Projects.  In this lesson, we will explore 3 of the most popular methodologies--**_CRISP-DM_**, **_KDD_**, and **_OSEMN_**, and explore how we can make use of them to keep our own projects well-structured and organized. 
 
-### CRoss-Industry Standard Process for Data Mining (CRISP-DM)
+## CRoss-Industry Standard Process for Data Mining (CRISP-DM)
 
 <img src='crisp-dm.png'>
 
@@ -96,7 +96,7 @@ During this stage, we'll focus on moving our model into production and automatin
 
 This is one of the most rewarding steps of the entire Data Science Process--getting to see your work go live!
 
-### Knowledge Discovery in Databases
+## Knowledge Discovery in Databases
 
 <img src='kdd.png'>
 
@@ -138,7 +138,7 @@ The output of this stage is results from a fit to the data for the problem we're
 
 During this final stage of KDD, we focus on interpreting the "patterns" discovered in the previous step to help us make generalizations or predictions that help us answer our original question. During this stage, you'll consolidate everything you've learned use it or present it to stakeholders for guiding future actions. Your output may be a presentation that you use to communicate to non-technical managers or executives (never discount the importance of knowing PowerPoint as a data scientist!).  Your conclusions for a project may range from "this approach didn't work" or "we need more data about {X}" to "this is ready for production, let's build it!".  
 
-### OSEMiN
+## OSEMiN
 
 <img src='osemn.jpg'>
 <center><a href="https://www.kdnuggets.com/2018/02/data-science-command-line-book-exploring-data.html">Source: KDNuggets</a></center>
@@ -170,7 +170,7 @@ This step, as with the last two frameworks, is also pretty self-explanatory. It 
 During this step, you'll interpret the results of your model(s), and communicate results to stakeholders.  As with the other frameworks, communication is incredibily important! During this stage, you may come to realize that further investigation is needed, or more data.  That's totally fine--figure out what's needed, go get it, and start the process over! If your results are satisfactory to all stakeholders involved, you may also go from this stage right into productionizing your model and automating processes necessary to support it.  
 
 
-### A Note On Communicating Results
+## A Note On Communicating Results
 
 Regardless of the quality of your results, it's very important that you be aware of the business requirements and stakeholder expectations at all times! Generally, no matter which of the above processes you use, you'll communicate your results in a two-pronged manner: 
 
@@ -180,7 +180,7 @@ Regardless of the quality of your results, it's very important that you be aware
 In general, you can see why data scientists love Jupyter Notebooks! It is very easy to format results in a reproducible, easy-to-understand way.  Although a detailed jupyter notebook may seem like the more involved of the two deliverables listed above, the high-level presentation is often the hardest! Just remember--even if the project took you/your team over a year and utilized the most cutting-edge machine learning techniques available, you still need to be able to communicate your results in about 5 slides (using graphics, not words, whenever possible!), in a 5 minute presentation in a way that someone that can't write code can still understand and be convinced by!
 
 
-# Conclusion
+## Conclusion
 
 In this lesson, we learned:
 
