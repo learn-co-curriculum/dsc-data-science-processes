@@ -3,7 +3,7 @@
 
 ## Introduction
 
-In this lesson, we will learn about various Data Science Processes that we can use as a framework for Data Science projects. 
+As discussed, this section is all about synthesizing your skills to date in order to carry out a full data science process. In this lesson, you'll take a look at some general outlines for how many data scientists organize their workflow and conceptualize their process.
 
 ## Objectives
 
@@ -11,25 +11,25 @@ You will be able to:
 
 * Understand that Data Science projects are iterative
 * Understand that Data Science projects often have many stakeholders
-* Compare and constrast popular Data Science Process frameworks such as CRISP-DM, KDD, and OSEMiN
+* Compare and contrast popular Data Science Process frameworks such as CRISP-DM, KDD, and OSEMiN
 
 
 ## What is a Data Science Process?
 
-Data Science projects are often complex, with many stakeholders, data sources, and goals.  Because of this, the Data Science community has created several methodologies for helping organize and structure Data Science Projects.  In this lesson, we will explore 3 of the most popular methodologies--**_CRISP-DM_**, **_KDD_**, and **_OSEMN_**, and explore how we can make use of them to keep our own projects well-structured and organized. 
+Data Science projects are often complex, with many stakeholders, data sources, and goals.  Due to this, the Data Science community has created several methodologies for helping organize and structure Data Science Projects.  In this lesson, you'll explore 3 of the most popular methodologies--**_CRISP-DM_**, **_KDD_**, and **_OSEMN_**, and explore how you can make use of them to keep your projects well-structured and organized. 
 
 ## CRoss-Industry Standard Process for Data Mining (CRISP-DM)
 
-<img src='crisp-dm.png'>
+<img src='images/crisp-dm.png'>
 
-**_CRISP-DM_** is probably the most popular Data Science Process in the Data Science world right now.  Take a look at the  visualization above to get a feel for CRISP-DM.  Notice that CRISP-DM is an iterative process!
+**_CRISP-DM_** is probably the most popular Data Science Process in the Data Science world right now.  Take a look at the visualization above to get a feel for CRISP-DM.  Notice that CRISP-DM is an iterative process!
 
 
 Let's take a look at the individual steps involved in CRISP-DM.
 
-**_Business Understanding:_**  This stage is all about gathering facts and requirements.  Who will be using the model you build? How will they be using it? How will this help the goals of the business or organization overall?  Data Science projects are complex, with many moving parts and stakeholders.  They're also time intensive to complete or modify.  Because of this, its very important that the Data Scientist team working on the project has a deep understanding of what the problem is, and how the solution will be used. Consider the fact that many stakeholders involved in the project may not have technical backgrounds, and may not even be from the same organization.  Stakeholders from one part of the organization may have wildly different expectations about the project than stakeholders from a different part of the organization--for instance, the sales team may be under the impression that a recommendation system project is meant to increase sales by recommending upells to current customers, while the marketing team may be under the impression that the project is meant to help generate new leads by personalizing product recommendations in a marketing email.  These are two very interpretations of a recommendation system project, and it's understandable that both departments would immediately assume that the primary goal of the project is one that helps their organization.  As a Data Scientist, it's up to you clarify the requirements, and make sure that everyone involved understands what the project is and isn't. 
+**_Business Understanding:_**  This stage is all about gathering facts and requirements.  Who will be using the model you build? How will they be using it? How will this help the goals of the business or organization overall?  Data Science projects are complex, with many moving parts and stakeholders.  They're also time intensive to complete or modify.  Because of this, it is very important that the Data Scientist team working on the project has a deep understanding of what the problem is, and how the solution will be used. Consider the fact that many stakeholders involved in the project may not have technical backgrounds, and may not even be from the same organization.  Stakeholders from one part of the organization may have wildly different expectations about the project than stakeholders from a different part of the organization--for instance, the sales team may be under the impression that a recommendation system project is meant to increase sales by recommending upsells to current customers, while the marketing team may be under the impression that the project is meant to help generate new leads by personalizing product recommendations in a marketing email. These are two very different interpretations of a recommendation system project, and it's understandable that both departments would immediately assume that the primary goal of the project is one that helps their organization.  As a Data Scientist, it's up to you clarify the requirements and make sure that everyone involved understands what the project is and isn't. 
 
-During this stage, the goal is to get everyone on the same page, and to provide clarity on scope of the project for everyone involved, not just the Data Science team.  Generate and answer as many context questions as you can about the project. 
+During this stage, the goal is to get everyone on the same page and to provide clarity on the scope of the project for everyone involved, not just the Data Science team.  Generate and answer as many context questions as you can about the project. 
 
 Good questions for this stage include:
 
@@ -86,21 +86,21 @@ Consider the following questions during the modeling step:
 
 **_Evaluation:_**
 
-During this step, we'll evaluate the results of our modeling effors.  Does our model solve the problems that we outlined all the way back during step 1? Why or why not? Often times, evaluating the results of our modeling step will raise new questions, or will cause us to consider changing our approach to the problem.  Notice from the CRISP-DM diagram above, that the "Evaluation" step is unique in that it points to both _Business Understanding_ and _Deployment_.  As we mentioned before, Data Science is an iterative process--that means that given the new information our model has provided, we'll often want to start over with another iteration, armed with our newfound knowledge! Perhaps the results of our model showed us something important that we had originally failed to consider about the goal of the project, or the scope.  Perhaps we learned that the model can't be successful without more data, or different data. Perhaps our evaluation shows us that we should reconsider our approach to cleaning and structuring the data, or how we frame the project as a whole (e.g. realizing we should treat the problem as a classification rather than a regression task). In any of these cases, it is totally encouraged to revisit the earlier steps.  
+During this step, we'll evaluate the results of our modeling efforts.  Does our model solve the problems that we outlined all the way back during step 1? Why or why not? Often times, evaluating the results of our modeling step will raise new questions, or will cause us to consider changing our approach to the problem.  Notice from the CRISP-DM diagram above, that the "Evaluation" step is unique in that it points to both _Business Understanding_ and _Deployment_.  As we mentioned before, Data Science is an iterative process--that means that given the new information our model has provided, we'll often want to start over with another iteration, armed with our newfound knowledge! Perhaps the results of our model showed us something important that we had originally failed to consider the goal of the project or the scope.  Perhaps we learned that the model can't be successful without more data, or different data. Perhaps our evaluation shows us that we should reconsider our approach to cleaning and structuring the data, or how we frame the project as a whole (e.g. realizing we should treat the problem as a classification rather than a regression task). In any of these cases, it is totally encouraged to revisit the earlier steps.  
 
 Of course, if the results are satisfactory, then we instead move onto Deployment!
 
 **_Deployment:_**
 
-During this stage, we'll focus on moving our model into production and automating as much as possible.  Everything before this serves as a proof-of-concept or an investigation.  If the project has proved successful, then you'll work with stakeholders to determine the best way to productionize our results.  This means taking all of our learnings from the entire process and using it to automate or assign important tasks whenever possible.  We may set up an an automated ETL (Extract-Transform-Load) process to get the data from the production database and reformat it so that it is ready for modeling. During the deployment step, you'll actively work to determine the best course of action for getting the results of your project into the wild, and you'll often be involved with building everything needed to put the software into production. 
+During this stage, we'll focus on moving our model into production and automating as much as possible.  Everything before this serves as a proof-of-concept or an investigation.  If the project has proved successful, then you'll work with stakeholders to determine the best way to implement models and insights.  For example, you might set up an automated ETL (Extract-Transform-Load) pipelines of raw data in order to feed into a database and reformat it so that it is ready for modeling. During the deployment step, you'll actively work to determine the best course of action for getting the results of your project into the wild, and you'll often be involved with building everything needed to put the software into production. 
 
 This is one of the most rewarding steps of the entire Data Science Process--getting to see your work go live!
 
 ## Knowledge Discovery in Databases
 
-<img src='kdd.png'>
+<img src='images/kdd.png'>
 
-**_Knowledge Discovery in Databases_**, or **_KDD_** is considered the oldest Data Science Process. The creation of this process is credited to Gregory Piatetsky-Shapiro, who also runs the ever-popular Data Science blog, [kdnuggets](https://www.kdnuggets.com/).  When you have extra time, you're encourages to read the original white paper on KDD, which can be found [here](https://www.kdnuggets.com/gpspubs/aimag-kdd-overview-1992.pdf)!
+**_Knowledge Discovery in Databases_**, or **_KDD_** is considered the oldest Data Science Process. The creation of this process is credited to Gregory Piatetsky-Shapiro, who also runs the ever-popular Data Science blog, [kdnuggets](https://www.kdnuggets.com/).  If you're interested, read the original white paper on KDD, which can be found [here](https://www.kdnuggets.com/gpspubs/aimag-kdd-overview-1992.pdf)!
 
 The KDD process is quite similar to the CRISP-DM process.  The diagram above illustrates every step of the KDD process, as well as the expected output at each stage. 
 
@@ -122,7 +122,7 @@ In practice, this stage often blurs with the _Transformation_ stage.
 The output of this stage is preprocessed data that is more "clean" that it was at the start of this stage--although the dataset is not quite ready for modeling yet. 
 **_Transformation_**:
 
-During this stage, you'll take your preprocessed data and transform it in a way that makes it more ideal for modeling.  This may include steps like feature engineering, and dimensionality reduction.  At this stage, you'll also deal with things like checking for and removing multicollinearity from the dataset. Categorical data should also be converted to numeric format through one-hot encoding during this step.
+During this stage, you'll take your preprocessed data and transform it in a way that makes it more ideal for modeling.  This may include steps like feature engineering and dimensionality reduction.  At this stage, you'll also deal with things like checking for and removing multicollinearity from the dataset. Categorical data should also be converted to numeric format through one-hot encoding during this step.
 
 The output of this stage is a dataset that is now ready for modeling.  All null values and outliers are removed, categorical data has been converted to a format that a model can work with, and the dataset is generally ready for experimentation with modeling.  
 
@@ -132,7 +132,7 @@ The Data Mining stage refers to using different modeling techniques to try and b
 
 You may be wondering what Data Mining is, and how it relates to Data Science. In practice, it's just an older term that essentially means the same thing as Data Science. Dr. Piatetsky-Shapiro defines Data Mining as "the non-trivial extraction of implicit, previously unknown and potentially useful information from data."  Making of things such as Machine Learning algorithms to find insights in large datasets that aren't immediately obvious without these algorithms is at the heart of the concept of Data Mining, just as it is in Data Science. In a pragmatic sense, this is why the terms Data Mining and Data Science are typically used interchangeably, although the term Data Mining is considered an older term that isn't used as often nowadays. 
 
-The output of this stage is results from a fit to the data for the problem we're trying to solve.  
+The output of this stage results from a fit to the data for the problem we're trying to solve.  
 
 **_Interpretation/Evaluation_**:
 
@@ -140,24 +140,24 @@ During this final stage of KDD, we focus on interpreting the "patterns" discover
 
 ## OSEMiN
 
-<img src='osemn.jpg'>
+<img src='images/osemn.jpg'>
 <center><a href="https://www.kdnuggets.com/2018/02/data-science-command-line-book-exploring-data.html">Source: KDNuggets</a></center>
 
-This brings us to the Data Science Process we'll be using during this section--OSEMiN (pronounced "OH-sum", rhymes with "possum").  This is the most straightforward of the Data Science Processes discussed so far.  Note that during this process, just like the others, the stages often blur together.  It is completely acceptable (and often a best practice!) to float back and forth between stages as you learn new things about your problem, dataset, requirements, etc.  It's quite common to get to the modeling step and realize that you need to scrub your data a bit more or engineer a different feature and jump back to the "Scrub" stage, or go all the way back to the "Obtain" stage when you realize your current data isn't sufficient to solve this problem. As with any of these frameworks, OSEMiN is meant to be treated more as a set of guidelines for structuring your project than set-in-stone steps that cannot be violated.  
+This brings us to the Data Science Process we'll be using during this section--OSEMiN (pronounced "OH-sum", rhymes with "possum").  This is the most straightforward of the Data Science Processes discussed so far.  Note that during this process, just like the others, the stages often blur together.  It is completely acceptable (and often a best practice!) to float back and forth between stages as you learn new things about your problem, dataset, requirements, etc.  It's quite common to get to the modeling step and realize that you need to scrub your data a bit more or engineer a different feature and jump back to the "Scrub" stage, or go all the way back to the "Obtain" stage when you realize your current data isn't sufficient to solve this problem. As with any of these frameworks, OSEMiN is meant to be treated more like a set of guidelines for structuring your project than set-in-stone steps that cannot be violated.  
 
 **_Obtain_**:
 
-As with CRISP-DM and KDD, this step involves understanding stakeholder requirements, gathering information on the problem, and finally sourcing data that we think will be necessary for solving this problem. 
+As with CRISP-DM and KDD, this step involves understanding stakeholder requirements, gathering information on the problem, and finally, sourcing data that we think will be necessary for solving this problem. 
 
 **_Scrub_**:
 
-During this stage, we'll focus on preprocessing our data.  Important steps such as identifying and removing null values, dealing with outliers, normalizing data, and feature engineering/feature selection are handled around this stage.  The line with this stage really blurs with the _Explore_ stage, as it is common to only realize that certain columns require cleaning or preprocessing as a result of the visualzations and explorations done during Step 3.  
+During this stage, we'll focus on preprocessing our data.  Important steps such as identifying and removing null values, dealing with outliers, normalizing data, and feature engineering/feature selection are handled around this stage.  The line with this stage really blurs with the _Explore_ stage, as it is common to only realize that certain columns require cleaning or preprocessing as a result of the visualizations and explorations done during Step 3.  
 
 Note that although technically, categorical data should be one-hot encoded during this step, in practice, it's usually done after data exploration.  This is because it is much less time-consuming to visualize and explore a few columns containing categorical data than it is to explore many different dummy columns that have been one-hot encoded. 
 
 **_Explore_**:
 
-This step focuses on getting to know the dataset you're working with. As mentioned above, this step tends to blend with the _Scrub_ step mentioned above.  During this step, you'll create visualizations to really get a feel for your dataset.  You'll focus on things such as understanding the distribution of different columns, checking for multicollinearity, and other tasks liek that.  If your project is a classification task, you may check the balance of the different classes in your dataset.  If your problem is a regression task, you may check that the dataset meets the assumptions necessary for a regression task.  
+This step focuses on getting to know the dataset you're working with. As mentioned above, this step tends to blend with the _Scrub_ step mentioned above.  During this step, you'll create visualizations to really get a feel for your dataset.  You'll focus on things such as understanding the distribution of different columns, checking for multicollinearity, and other tasks like that.  If your project is a classification task, you may check the balance of the different classes in your dataset.  If your problem is a regression task, you may check that the dataset meets the assumptions necessary for a regression task.  
 
 At the end of this step, you should have a dataset ready for modeling that you've thoroughly explored and are extremely familiar with.  
 
@@ -167,7 +167,7 @@ This step, as with the last two frameworks, is also pretty self-explanatory. It 
 
 **_Interpret_**:
 
-During this step, you'll interpret the results of your model(s), and communicate results to stakeholders.  As with the other frameworks, communication is incredibily important! During this stage, you may come to realize that further investigation is needed, or more data.  That's totally fine--figure out what's needed, go get it, and start the process over! If your results are satisfactory to all stakeholders involved, you may also go from this stage right into productionizing your model and automating processes necessary to support it.  
+During this step, you'll interpret the results of your model(s), and communicate results to stakeholders.  As with the other frameworks, communication is incredibly important! During this stage, you may come to realize that further investigation is needed, or more data.  That's totally fine--figure out what's needed, go get it, and start the process over! If your results are satisfactory to all stakeholders involved, you may also go from this stage right into putting your model into production and automating processes necessary to support it.  
 
 
 ## A Note On Communicating Results
@@ -186,4 +186,4 @@ In this lesson, we learned:
 
 * That Data Science projects are iterative
 * That Data Science projects often have many stakeholders
-* To Compare and constrast popular Data Science Process frameworks such as CRISP-DM, KDD, and OSEMiN
+* To Compare and contrast popular Data Science Process frameworks such as CRISP-DM, KDD, and OSEMiN
