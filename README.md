@@ -109,7 +109,7 @@ The KDD process is quite similar to the CRISP-DM process.  The diagram above ill
 
 During this stage, you'll focus on selecting your problem, and the data that will help you answer it.  This stage works much like the first stage of CRISP-DM--you begin by focusing on developing an understanding of the domain the problem resides in (e.g. marketing, finance, increasing customer sales, etc), the previous work done in this domain, and the goals of the stakeholders involved with the process.  
 
-Once you've developed a strong understanding of the goals and the domain, you'll work to establish where your data is coming from, and which data will be useful to you.  Organizations and companies usually have a ton of data, and only some of it will be relevant to the problem you're trying to solve.  During this stage, you'll focus on examing the data sources available to you and gathering the data that you deem useful for the project.  
+Once you've developed a strong understanding of the goals and the domain, you'll work to establish where your data is coming from, and which data will be useful to you.  Organizations and companies usually have a ton of data, and only some of it will be relevant to the problem you're trying to solve.  During this stage, you'll focus on examining the data sources available to you and gathering the data that you deem useful for the project.  
 
 The output of this stage is the dataset you'll be using for the Data Science project. 
 
@@ -175,9 +175,9 @@ During this step, you'll interpret the results of your model(s), and communicate
 Regardless of the quality of your results, it's very important that you be aware of the business requirements and stakeholder expectations at all times! Generally, no matter which of the above processes you use, you'll communicate your results in a two-pronged manner: 
 
 * A short, high-level presentation covering your question, process, and results meant for non-technical audiences
-* A detailed jupyter notebook demonstrating your entire process meant for technical audiences
+* A detailed Jupyter Notebook demonstrating your entire process meant for technical audiences
 
-In general, you can see why data scientists love Jupyter Notebooks! It is very easy to format results in a reproducible, easy-to-understand way.  Although a detailed jupyter notebook may seem like the more involved of the two deliverables listed above, the high-level presentation is often the hardest! Just remember--even if the project took you/your team over a year and utilized the most cutting-edge machine learning techniques available, you still need to be able to communicate your results in about 5 slides (using graphics, not words, whenever possible!), in a 5 minute presentation in a way that someone that can't write code can still understand and be convinced by!
+In general, you can see why data scientists love Jupyter Notebooks! It is very easy to format results in a reproducible, easy-to-understand way.  Although a detailed Jupyter Notebook may seem like the more involved of the two deliverables listed above, the high-level presentation is often the hardest! Just remember--even if the project took you/your team over a year and utilized the most cutting-edge machine learning techniques available, you still need to be able to communicate your results in about 5 slides (using graphics, not words, whenever possible!), in a 5 minute presentation in a way that someone that can't write code can still understand and be convinced by!
 
 
 ## Conclusion
