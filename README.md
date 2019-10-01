@@ -3,7 +3,7 @@
 
 ## Introduction
 
-As discussed, this section is all about synthesizing your skills to date in order to work through a full Data Science workflow. In this lesson, you'll take a look at some general outlines for how Data Scientists organize their workflow and conceptualize their process.
+As discussed, this section is all about synthesizing your skills in order to work through a full Data Science workflow. In this lesson, you'll take a look at some general outlines for how Data Scientists organize their workflow and conceptualize their process.
 
 ## Objectives
 
