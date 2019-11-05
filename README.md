@@ -9,9 +9,8 @@ As discussed, this section is all about synthesizing your skills in order to wor
 
 You will be able to:
 
-* Understand that Data Science projects are iterative
-* Understand that Data Science projects often have many stakeholders
-* Compare and contrast popular Data Science process frameworks such as CRISP-DM, KDD, and OSEMiN
+* List the different data science process frameworks
+* Compare and contrast popular data science process frameworks such as CRISP-DM, KDD, OSEMN
 
 
 ## What is a Data Science Process?
@@ -183,8 +182,4 @@ In general, you can see why Data Scientists love Jupyter Notebooks! It is very e
 
 ## Conclusion
 
-In this lesson, we learned:
-
-* That Data Science projects are iterative
-* That Data Science projects often have many stakeholders
-* To Compare and contrast popular Data Science process frameworks such as CRISP-DM, KDD, and OSEMiN
+In this lesson, you learned about the different data science process frameworks including CRISP-DM, KDD, and OSEMiN. You also learned that the data science process is iterative and that a typical data science project involves many different stakeholders who may not have a technical background. As such, it's important to recognize that data scientists must be able to communicate their findings in a non-technical way.
