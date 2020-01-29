@@ -138,12 +138,12 @@ The output of this stage results from a fit to the data for the problem we're tr
 
 During this final stage of KDD, we focus on interpreting the "patterns" discovered in the previous step to help us make generalizations or predictions that help us answer our original question. During this stage, you'll consolidate everything you've learned to present it to stakeholders for guiding future actions. Your output may be a presentation that you use to communicate to non-technical managers or executives (never discount the importance of knowing PowerPoint as a Data Scientist!).  Your conclusions for a project may range from "this approach didn't work" or "we need more data about {X}" to "this is ready for production, let's build it!".  
 
-## OSEMiN
+## OSEMN
 
 <img src='images/new_osemn.png'>
 <center><a href="https://www.kdnuggets.com/2018/02/data-science-command-line-book-exploring-data.html">Adapted from: KDNuggets</a></center>
 
-This brings us to the Data Science process we'll be using during this section -- OSEMiN (pronounced "OH-sum", rhymes with "possum").  This is the most straightforward of the Data Science processes discussed so far.  Note that during this process, just like the others, the stages often blur together.  It is completely acceptable (and often a best practice!) to float back and forth between stages as you learn new things about your problem, dataset, requirements, etc.  It's quite common to get to the modeling step and realize that you need to scrub your data a bit more or engineer a different feature and jump back to the "Scrub" stage, or go all the way back to the "Obtain" stage when you realize your current data isn't sufficient to solve this problem. As with any of these frameworks, OSEMiN is meant to be treated more like a set of guidelines for structuring your project than set-in-stone steps that cannot be violated.  
+This brings us to the Data Science process we'll be using during this section -- OSEMN (sometimes referred as OSEMiN, and pronounced "OH-sum", rhymes with "possum").  This is the most straightforward of the Data Science processes discussed so far.  Note that during this process, just like the others, the stages often blur together.  It is completely acceptable (and often a best practice!) to float back and forth between stages as you learn new things about your problem, dataset, requirements, etc.  It's quite common to get to the modeling step and realize that you need to scrub your data a bit more or engineer a different feature and jump back to the "Scrub" stage, or go all the way back to the "Obtain" stage when you realize your current data isn't sufficient to solve this problem. As with any of these frameworks, OSEMN is meant to be treated more like a set of guidelines for structuring your project than set-in-stone steps that cannot be violated.  
 
 **_Obtain_**:
 
@@ -182,4 +182,4 @@ In general, you can see why Data Scientists love Jupyter Notebooks! It is very e
 
 ## Conclusion
 
-In this lesson, you learned about the different data science process frameworks including CRISP-DM, KDD, and OSEMiN. You also learned that the data science process is iterative and that a typical data science project involves many different stakeholders who may not have a technical background. As such, it's important to recognize that data scientists must be able to communicate their findings in a non-technical way.
+In this lesson, you learned about the different data science process frameworks including CRISP-DM, KDD, and OSEMN. You also learned that the data science process is iterative and that a typical data science project involves many different stakeholders who may not have a technical background. As such, it's important to recognize that data scientists must be able to communicate their findings in a non-technical way.
