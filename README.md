@@ -9,8 +9,8 @@ As discussed, this section is all about synthesizing your skills in order to wor
 
 You will be able to:
 
-* List the different data science process frameworks
-* Compare and contrast popular data science process frameworks such as CRISP-DM, KDD, OSEMN
+- List the different data science process frameworks
+- Compare and contrast popular data science process frameworks such as CRISP-DM, KDD, OSEMN
 
 
 ## What is a Data Science Process?
@@ -19,10 +19,9 @@ Data Science projects are often complex, with many stakeholders, data sources, a
 
 ## CRoss-Industry Standard Process for Data Mining (CRISP-DM)
 
-<img src='images/new_crisp-dm.png' width="500">
+<img src="images/new_crisp-dm.png" width="500">
 
-**_CRISP-DM_** is probably the most popular Data Science process in the Data Science world right now. Take a look at the visualization above to get a feel for CRISP-DM.  Notice that CRISP-DM is an iterative process!
-
+**_CRISP-DM_** is probably the most popular Data Science process in the Data Science world right now. Take a look at the visualization above to get a feel for CRISP-DM. Notice that CRISP-DM is an iterative process!
 
 Let's take a look at the individual steps involved in CRISP-DM.
 
@@ -32,14 +31,13 @@ During this stage, the goal is to get everyone on the same page and to provide c
 
 Good questions for this stage include:
 
-* Who are the stakeholders in this project? Who will be directly affected by the creation of this project?
-* What business problem(s) will this Data Science project solve for the organization?  
-* What problems are inside the scope of this project?
-* What problems are outside the scope of this project?
-* What data sources are available to us?
-
-* What is the expected timeline for this project? Are there hard deadlines (e.g. "must be live before holiday season shopping") or is this an ongoing project?
-* Do stakeholders from different parts of the company or organization all have the exact same understanding about what this project is and isn't?
+- Who are the stakeholders in this project? Who will be directly affected by the creation of this project?
+- What business problem(s) will this Data Science project solve for the organization?  
+- What problems are inside the scope of this project?
+- What problems are outside the scope of this project?
+- What data sources are available to us?
+- What is the expected timeline for this project? Are there hard deadlines (e.g. "must be live before holiday season shopping") or is this an ongoing project?
+- Do stakeholders from different parts of the company or organization all have the exact same understanding about what this project is and isn't?
 
 **_Data Understanding:_**
 
@@ -47,15 +45,15 @@ Once we have a solid understanding of the business implications for this project
 
 Consider the following questions when working through this stage:
 
-* What data is available to us? Where does it live? Do we have the data, or can we scrape/buy/source the data from somewhere else?
-* Who controls the data sources, and what steps are needed to get access to the data?
-* What is our target?
-* What predictors are available to us?
-* What data types are the predictors we'll be working with?
-* What is the distribution of our data?
-* How many observations does our dataset contain? Do we have a lot of data? Only a little? 
-* Do we have enough data to build a model? Will we need to use resampling methods?
-* How do we know the data is correct? How is the data collected? Is there a chance the data could be wrong?
+- What data is available to us? Where does it live? Do we have the data, or can we scrape/buy/source the data from somewhere else?
+- Who controls the data sources, and what steps are needed to get access to the data?
+- What is our target?
+- What predictors are available to us?
+- What data types are the predictors we'll be working with?
+- What is the distribution of our data?
+- How many observations does our dataset contain? Do we have a lot of data? Only a little? 
+- Do we have enough data to build a model? Will we need to use resampling methods?
+- How do we know the data is correct? How is the data collected? Is there a chance the data could be wrong?
 
 **_Data Preparation:_**
 
@@ -63,11 +61,11 @@ Once we have a strong understanding of our data, we can move onto preparing the 
 
 During this stage, we'll want to handle the following issues:
 
-* Detecting and dealing with missing values
-* Data type conversions (e.g. numeric data mistakenly encoded as strings)
-* Checking for and removing multicollinearity (correlated predictors)
-* Normalizing our numeric data
-* Converting categorical data to numeric format through one-hot encoding
+- Detecting and dealing with missing values
+- Data type conversions (e.g. numeric data mistakenly encoded as strings)
+- Checking for and removing multicollinearity (correlated predictors)
+- Normalizing our numeric data
+- Converting categorical data to numeric format through one-hot encoding
 
 **_Modeling:_**
 
@@ -75,13 +73,13 @@ Once we have clean data, we can begin modeling! Remember, modeling, as with any 
 
 Consider the following questions during the modeling step:
 
-* Is this a classification task? A regression task? Something else?
-* What models will we try?
-* How do we deal with overfitting?
-* Do we need to use regularization or not?
-* What sort of validation strategy will we be using to check that our model works well on unseen data?
-* What loss functions will we use?
-* What threshold of performance do we consider as successful?
+- Is this a classification task? A regression task? Something else?
+- What models will we try?
+- How do we deal with overfitting?
+- Do we need to use regularization or not?
+- What sort of validation strategy will we be using to check that our model works well on unseen data?
+- What loss functions will we use?
+- What threshold of performance do we consider as successful?
 
 **_Evaluation:_**
 
@@ -97,12 +95,11 @@ This is one of the most rewarding steps of the entire Data Science process -- ge
 
 ## Knowledge Discovery in Databases
 
-<img src='images/new_kdd.png'>
+<img src="images/new_kdd.png" width="800">
 
 **_Knowledge Discovery in Databases_**, or **_KDD_** is considered the oldest Data Science process. The creation of this process is credited to Gregory Piatetsky-Shapiro, who also runs the ever-popular Data Science blog, [kdnuggets](https://www.kdnuggets.com/). If you're interested, read the original white paper on KDD, which can be found [here](https://www.kdnuggets.com/gpspubs/aimag-kdd-overview-1992.pdf)!
 
 The KDD process is quite similar to the CRISP-DM process. The diagram above illustrates every step of the KDD process, as well as the expected output at each stage. 
-
 
 **_Selection_**:
 
@@ -140,10 +137,10 @@ During this final stage of KDD, we focus on interpreting the "patterns" discover
 
 ## OSEMN
 
-<img src='images/new_osemn.png'>
-<center><a href="https://www.kdnuggets.com/2018/02/data-science-command-line-book-exploring-data.html">Adapted from: KDNuggets</a></center>
+<img src="images/new_osemn.png" width="800">
+<a href="https://www.kdnuggets.com/2018/02/data-science-command-line-book-exploring-data.html" target="_blank">Adapted from: KDNuggets</a>
 
-This brings us to the Data Science process we'll be using during this section -- OSEMN (sometimes referred as OSEMiN, and pronounced "OH-sum", rhymes with "possum").  This is the most straightforward of the Data Science processes discussed so far.  Note that during this process, just like the others, the stages often blur together.  It is completely acceptable (and often a best practice!) to float back and forth between stages as you learn new things about your problem, dataset, requirements, etc.  It's quite common to get to the modeling step and realize that you need to scrub your data a bit more or engineer a different feature and jump back to the "Scrub" stage, or go all the way back to the "Obtain" stage when you realize your current data isn't sufficient to solve this problem. As with any of these frameworks, OSEMN is meant to be treated more like a set of guidelines for structuring your project than set-in-stone steps that cannot be violated.  
+This brings us to the Data Science process we'll be using during this section -- OSEMN (sometimes referred as OSEMiN, and pronounced "OH-sum", rhymes with "possum"). This is the most straightforward of the Data Science processes discussed so far. Note that during this process, just like the others, the stages often blur together. It is completely acceptable (and often a best practice!) to float back and forth between stages as you learn new things about your problem, dataset, requirements, etc.  It's quite common to get to the modeling step and realize that you need to scrub your data a bit more or engineer a different feature and jump back to the "Scrub" stage, or go all the way back to the "Obtain" stage when you realize your current data isn't sufficient to solve this problem. As with any of these frameworks, OSEMN is meant to be treated more like a set of guidelines for structuring your project than set-in-stone steps that cannot be violated.  
 
 **_Obtain_**:
 
@@ -174,8 +171,8 @@ During this step, you'll interpret the results of your model(s), and communicate
 
 Regardless of the quality of your results, it's very important that you be aware of the business requirements and stakeholder expectations at all times! Generally, no matter which of the above processes you use, you'll communicate your results in a two-pronged manner: 
 
-* A short, high-level presentation covering your question, process, and results meant for non-technical audiences
-* A detailed Jupyter Notebook demonstrating your entire process meant for technical audiences
+- A short, high-level presentation covering your question, process, and results meant for non-technical audiences
+- A detailed Jupyter Notebook demonstrating your entire process meant for technical audiences
 
 In general, you can see why Data Scientists love Jupyter Notebooks! It is very easy to format results in a reproducible, easy-to-understand way.  Although a detailed Jupyter Notebook may seem like the more involved of the two deliverables listed above, the high-level presentation is often the hardest! Just remember -- even if the project took you/your team over a year and utilized the most cutting-edge machine learning techniques available, you still need to be able to communicate your results in about 5 slides (using graphics, not words, whenever possible!), in a 5 minute presentation in a way that someone that can't write code can still understand and be convinced by!
 
