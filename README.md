@@ -18,7 +18,7 @@ Data Science projects are often complex, with many stakeholders, data sources, a
 
 ## CRoss-Industry Standard Process for Data Mining (CRISP-DM)
 
-<img src="images/new_crisp-dm.png" width="500">
+<img src="https://raw.githubusercontent.com/learn-co-curriculum/dsc-data-science-processes/master/images/new_crisp-dm.png" width="500">
 
 **_CRISP-DM_** is probably the most popular Data Science process in the Data Science world right now. Take a look at the visualization above to get a feel for CRISP-DM. Notice that CRISP-DM is an iterative process!
 
@@ -94,7 +94,7 @@ This is one of the most rewarding steps of the entire Data Science process -- ge
 
 ## Knowledge Discovery in Databases
 
-<img src="images/new_kdd.png" width="800">
+<img src="https://raw.githubusercontent.com/learn-co-curriculum/dsc-data-science-processes/master/images/new_kdd.png" width="800">
 
 **_Knowledge Discovery in Databases_**, or **_KDD_** is considered the oldest Data Science process. The creation of this process is credited to Gregory Piatetsky-Shapiro, who also runs the ever-popular Data Science blog, [kdnuggets](https://www.kdnuggets.com/). If you're interested, read the original white paper on KDD, which can be found [here](https://www.kdnuggets.com/gpspubs/aimag-kdd-overview-1992.pdf)!
 
@@ -136,7 +136,7 @@ During this final stage of KDD, we focus on interpreting the "patterns" discover
 
 ## OSEMN
 
-<img src="images/new_osemn.png" width="800">
+<img src="https://raw.githubusercontent.com/learn-co-curriculum/dsc-data-science-processes/master/images/new_osemn.png" width="800">
 <a href="https://www.kdnuggets.com/2018/02/data-science-command-line-book-exploring-data.html" target="_blank">Adapted from: KDNuggets</a>
 
 This brings us to the Data Science process we'll be using during this section -- OSEMN (sometimes referred as OSEMiN, and pronounced "OH-sum", rhymes with "possum"). This is the most straightforward of the Data Science processes discussed so far. Note that during this process, just like the others, the stages often blur together. It is completely acceptable (and often a best practice!) to float back and forth between stages as you learn new things about your problem, dataset, requirements, etc.  It's quite common to get to the modeling step and realize that you need to scrub your data a bit more or engineer a different feature and jump back to the "Scrub" stage, or go all the way back to the "Obtain" stage when you realize your current data isn't sufficient to solve this problem. As with any of these frameworks, OSEMN is meant to be treated more like a set of guidelines for structuring your project than set-in-stone steps that cannot be violated.  
